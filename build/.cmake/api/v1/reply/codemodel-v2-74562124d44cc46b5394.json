@@ -1,0 +1,161 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "eletro-display",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "eletro-display",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "eletro-util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "eletro-util",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "eletro-board",
+					"childIndexes" : 
+					[
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "eletro-board"
+				},
+				{
+					"build" : "eletro-board/repo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "eletro-board/repo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "eletro-app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "eletro-app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "MedicalHorse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Application::@89fe2ba92607d6f1f5ef",
+					"jsonFile" : "target-Application-Debug-c902871e4ed0272eb05a.json",
+					"name" : "Application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MedicalHorseBoard::@06bd155469c82dafa0f9",
+					"jsonFile" : "target-MedicalHorseBoard-Debug-46137a75fe7aec4b6704.json",
+					"name" : "MedicalHorseBoard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MedicalHorseDisplay::@41daede27de9227db985",
+					"jsonFile" : "target-MedicalHorseDisplay-Debug-6a8c29a36f65c5181f84.json",
+					"name" : "MedicalHorseDisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MedicalHorseUtil::@a46e57d9aa62a6c9139b",
+					"jsonFile" : "target-MedicalHorseUtil-Debug-bc4ab2ac839947927fe3.json",
+					"name" : "MedicalHorseUtil",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fabricio.santos/devel/private/eletrohorse-top/build",
+		"source" : "/home/fabricio.santos/devel/private/eletrohorse-top"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

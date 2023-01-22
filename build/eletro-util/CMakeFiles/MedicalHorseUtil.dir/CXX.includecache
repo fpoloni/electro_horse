@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../eletro-util/repo/Package/Package.h
+algorithm
+-
+cstdint
+-
+cstring
+-
+vector
+-
+
+/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage/HandlePackage.cpp
+HandlePackage.h
+/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage/HandlePackage.h
+iostream
+-
+
+/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage/HandlePackage.h
+memory
+-
+algorithm
+-
+Package.h
+/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage/Package.h
+

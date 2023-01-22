@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/BoardAppTest.dir/Main.cpp.o  -o BoardAppTest  ../libMedicalHorseBoard.a -pthread 

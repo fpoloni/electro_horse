@@ -1,0 +1,15 @@
+[Unit]
+Description=Board EletroHorse Service
+DefaultDependencies=no
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/bin/Application
+TimeoutStartSec=0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

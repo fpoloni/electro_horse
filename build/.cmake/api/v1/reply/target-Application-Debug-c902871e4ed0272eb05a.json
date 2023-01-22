@@ -1,0 +1,262 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "eletro-app/Application"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"eletro-app/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-app/repo/Command"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-app/../eletro-display/repo/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-app/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Error"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Package"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Queue"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/Board"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/Hardware"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/DeviceControl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../../eletro-util/repo/Common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../../eletro-util/repo/Error"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display/repo/c/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display/repo/c/src/Comm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display../util/repo/HandlePackage"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display../util/repo/Common"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "MedicalHorseDisplay::@41daede27de9227db985"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MedicalHorseUtil::@a46e57d9aa62a6c9139b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "MedicalHorseBoard::@06bd155469c82dafa0f9"
+		}
+	],
+	"id" : "Application::@89fe2ba92607d6f1f5ef",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../eletro-util/libMedicalHorseUtil.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../eletro-board/repo/libMedicalHorseBoard.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../eletro-display/libMedicalHorseDisplay.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../eletro-util/libMedicalHorseUtil.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Application",
+	"nameOnDisk" : "Application",
+	"paths" : 
+	{
+		"build" : "eletro-app",
+		"source" : "eletro-app"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-app/repo/Application/Application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-app/repo/Application/ProgramProcess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-app/repo/Command/CommandHandler.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,2 @@
+/bin/ar qc libMedicalHorseUtil.a  CMakeFiles/MedicalHorseUtil.dir/repo/HandlePackage/HandlePackage.cpp.o
+/bin/ranlib libMedicalHorseUtil.a

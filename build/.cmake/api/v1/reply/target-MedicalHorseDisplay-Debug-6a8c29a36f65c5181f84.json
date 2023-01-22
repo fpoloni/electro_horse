@@ -1,0 +1,148 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "eletro-display/libMedicalHorseDisplay.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"eletro-display/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display/repo/c/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display/repo/c/src/Comm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display../util/repo/HandlePackage"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-display../util/repo/Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Error"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Package"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Queue"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-util/repo/HandlePackage"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "MedicalHorseUtil::@a46e57d9aa62a6c9139b"
+		}
+	],
+	"id" : "MedicalHorseDisplay::@41daede27de9227db985",
+	"name" : "MedicalHorseDisplay",
+	"nameOnDisk" : "libMedicalHorseDisplay.a",
+	"paths" : 
+	{
+		"build" : "eletro-display",
+		"source" : "eletro-display"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-display/repo/c/src/Display/Display.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-display/repo/c/src/Comm/TcpIpComm.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

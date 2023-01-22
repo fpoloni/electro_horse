@@ -1,0 +1,12 @@
+
+
+
+
+#ifndef MEDICALHORSE_ERROR_H_
+#define MEDICALHORSE_ERROR_H_
+
+#define NO_ERROR 0
+#define OP_ERROR 1
+#define NULLPTR  2
+
+#endif // MEDICALHORSE_ERROR_H_

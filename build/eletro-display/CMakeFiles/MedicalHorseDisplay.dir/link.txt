@@ -1,0 +1,2 @@
+/bin/ar qc libMedicalHorseDisplay.a  CMakeFiles/MedicalHorseDisplay.dir/repo/c/src/Display/Display.cpp.o CMakeFiles/MedicalHorseDisplay.dir/repo/c/src/Comm/TcpIpComm.cpp.o
+/bin/ranlib libMedicalHorseDisplay.a

@@ -1,0 +1,3 @@
+ID,Program,TempMax,TempMin,Time,PWM
+1,TERMO,54,30,25,1
+2,CRIO,7,4,25,1

@@ -1,0 +1,15 @@
+[Unit]
+Description=Display EletroHorse Service
+After=board.service
+
+[Service]
+Type=simple
+#User=root
+#Group=root
+#ExecStart=/usr/bin/python3 /usr/bin/display/MainScreen.py
+ExecStart=/usr/bin/python3 /home/pi/env/display/MainScreen.py
+TimeoutStartSec=3
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

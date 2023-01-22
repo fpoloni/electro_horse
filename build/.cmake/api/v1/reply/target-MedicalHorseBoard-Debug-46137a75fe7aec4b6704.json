@@ -1,0 +1,241 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "eletro-board/repo/libMedicalHorseBoard.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"eletro-board/repo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/Board"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/Hardware"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../repo/DeviceControl"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../../eletro-util/repo/Common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/fabricio.santos/devel/private/eletrohorse-top/eletro-board/repo/../../eletro-util/repo/Error"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"id" : "MedicalHorseBoard::@06bd155469c82dafa0f9",
+	"name" : "MedicalHorseBoard",
+	"nameOnDisk" : "libMedicalHorseBoard.a",
+	"paths" : 
+	{
+		"build" : "eletro-board/repo",
+		"source" : "eletro-board/repo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/DeviceControl/DeviceControl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/Timer/Timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/Reles/Rele.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/Motor/Motor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/HBridge/I2C/HBridge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/HBridge/IO/HBridge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/Sensor/DS1803.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Device/Sensor/MAX6675.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Interface/PWM/Pwm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Interface/SerialBus/1Wire/OneWire.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Interface/SerialBus/I2C/I2C.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Hardware/Interface/SerialBus/SPI/Spi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "eletro-board/repo/Board/Board.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
