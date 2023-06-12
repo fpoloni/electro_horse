@@ -1,8 +1,15 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Basically we have three moduled being:
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+1) eletro-util: common component for all modules
+2) eletro-board: component to handle the whole board, divided to:
+  2.1) **Hardware**: motors, relay, sensors, and timers
+  2.2) **Interface**: serial (i2c, spi, 1wire and UART)
+  2.3) **System**: module to provide access to /dev/* providing low-level connection between the application and the OS Linux.
+3) eletro-display: module to stabilize the communication with display touch GUI to control equipment management. This module is split in two parts:
+    3.1) **C part code**: server service to connect to display touchscreen (GUI)
+    3.2) **phython part code**: client service to handle the communication protocol and also build the GUI structure (TKINTER framework).
 
 ---
 
