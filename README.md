@@ -1,15 +1,15 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**Project for automation machine to control relays, motors, and displays with GUI and monitor the process through temperature sensors and water flow.**
 
-Basically we have three moduled being:
+We have three modules being:
 
-1) eletro-util: common component for all modules
-2) eletro-board: component to handle the whole board, divided to:
+1) electro-util: common component for all modules
+2) electro-board: component to handle the whole board, divided into:
   2.1) **Hardware**: motors, relay, sensors, and timers
   2.2) **Interface**: serial (i2c, spi, 1wire and UART)
   2.3) **System**: module to provide access to /dev/* providing low-level connection between the application and the OS Linux.
-3) eletro-display: module to stabilize the communication with display touch GUI to control equipment management. This module is split in two parts:
+3) electro-display: module to stabilize the communication with display touch GUI to control equipment management. This module is split into two parts:
     3.1) **C part code**: server service to connect to display touchscreen (GUI)
-    3.2) **phython part code**: client service to handle the communication protocol and also build the GUI structure (TKINTER framework).
+    3.2) **python part code**: client service to handle the communication protocol and also build the GUI structure (TKINTER framework).
 
 ---
 
